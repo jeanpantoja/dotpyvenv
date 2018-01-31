@@ -8,8 +8,7 @@ previously have created with virtualenv program) in a folder named
 
 ## Installation
 
-You can clone the repository and execute the install.sh scrip or
-*you can execute the command `bash <(curl -s -S -L
-  https://raw.githubusercontent.com/jeanpantoja/dotpyvenv/master/online_installer.sh)` to
-run the online installer.
+You can clone the repository and execute the install.sh script; or you can execute the command
+`bash <(curl -s -S -L https://raw.githubusercontent.com/jeanpantoja/dotpyvenv/master/online_installer.sh)`
+to run the online installer.
 
