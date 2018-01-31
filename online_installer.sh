@@ -13,3 +13,4 @@ cd "${CLONE_DIR}"
 cd "${CURRENT_DIR}"
 
 rm -rfv "${CLONE_DIR}"
+echo "done"
