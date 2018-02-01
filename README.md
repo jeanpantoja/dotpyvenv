@@ -4,7 +4,9 @@ A simple oh-my-zsh plugin.
 ## Description
 This plugin automagically switch to a python virtual enviroment located (that you
 previously have created with virtualenv program) in a folder named
-".pyvenv".
+".pyvenv". If you have the virtualenv folder in a diferente folder you
+can create a .pyvenvdir file and put the custom dir inside this
+file, the plugin will search for your custom folder fisrt.
 
 ## Installation
 
