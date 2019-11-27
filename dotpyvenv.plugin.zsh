@@ -50,3 +50,4 @@ dotpyvenv:source() {
 
 autoload -U add-zsh-hook
 add-zsh-hook chpwd dotpyvenv:source
+add-zsh-hook precmd dotpyvenv:source
