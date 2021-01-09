@@ -7,7 +7,7 @@ dotpyvenv:current_dir_has_virtualenv_folder(){
 # Find the virtualenv in the current directory or any parent up to the root or $HOME
 function dotpyvenv:find_venv()
 {
-    local DOTPYVENV_DIR=".pyvenv"
+    local DOTPYVENV_DIR="${DOTPYVENV_DIR:-.pyvenv}" | tr -d "\n" 
     local DOTPYVENV_FILE=".pyvenvdir"
     local dir="$1"
 
